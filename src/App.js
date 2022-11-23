@@ -2,6 +2,7 @@ import './App.css';
 import Header from './components/Header';
 import AddTodo from './components/AddTodo';
 import Todos from './components/Todos';
+import About from './components/About';
 import Footer from './components/Footer';
 import { useEffect, useState } from 'react';
 
@@ -52,6 +53,7 @@ function App() {
       <Header title="Todos List" />
       <AddTodo addTodo={addTodo} />
       <Todos todos={todos} deleteTodo={deleteTodo} />
+      <About />
       <Footer />
     </>
   );
