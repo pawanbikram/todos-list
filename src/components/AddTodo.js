@@ -27,7 +27,7 @@ export default function AddTodo({ addTodo }) {
                     <label htmlFor="desc" className="form-label">Todo Description</label>
                     <input type="text" id="desc" value={desc} onChange={(e) => { setDesc(e.target.value) }} className="form-control" />
                 </div>
-                <button type="submit" className="btn btn-sn btn-outline-success">Add Todo</button>
+                <button type="submit" className="btn btn-sm btn-outline-success">Add Todo</button>
             </form>
         </div>
     )
